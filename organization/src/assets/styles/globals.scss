@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Xplor";
+  src: url("../fonts/XPLOR.otf") format("opentype");
+}
+
+:root {
+  --light-purple: #6B12D9;
+  --dark-orange: #FF8800;
+  --light-blue: #00A1FF;
+  --dark-purple: #49007A;
+  --yellow: #FFEB0A;
+  --cyan: #B4FDFB;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: XPLOR, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
