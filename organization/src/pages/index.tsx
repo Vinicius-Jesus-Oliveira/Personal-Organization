@@ -1,10 +1,10 @@
-import styles from '../styles/Login.module.scss'
+import styles from '../styles/login.scss';
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      {/* <p>ORGANIZAÍ</p> */}
-      <img src="images/logo.webp"/>
+      <div className={styles.login}></div>
+      {/* <img src="images/logo.webp"/> */}
     </div>
   )
 }
